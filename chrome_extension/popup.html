@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Detecta Selectores</title>
+<style>
+body { font-family: sans-serif; width: 300px; padding: 10px; }
+label { display: block; margin-top: 8px; }
+button { margin-top: 10px; }
+</style>
+</head>
+<body>
+  <label>Seleccionar capa:
+    <select id="layerSelect">
+      <option value="frontend">Frontend</option>
+      <option value="backend">Backend</option>
+    </select>
+  </label>
+
+  <label>URL:
+    <input id="urlInput" type="text" placeholder="https://example.com" />
+  </label>
+
+  <label>Tipo de Proyecto:
+    <select id="projectType">
+      <option value="java-testng">Java con TestNG, Maven y Cucumber</option>
+      <option value="cypress">Cypress con Typescript</option>
+      <option value="playwright">Playwright con Typescript y BDD</option>
+      <option value="robot">Robot</option>
+    </select>
+  </label>
+
+  <button id="createBtn">Crear proyecto</button>
+  <pre id="result"></pre>
+
+  <script src="popup.js"></script>
+</body>
+</html>

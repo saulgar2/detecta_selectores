@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+# Chrome extension build artifacts
+chrome_extension/*.zip
+

@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Detecta Selectores",
+  "version": "1.0",
+  "description": "Genera proyectos de prueba automatizados a partir de una URL.",
+  "action": {
+    "default_title": "Detecta Selectores",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"]
+}
