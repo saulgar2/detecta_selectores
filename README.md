@@ -29,9 +29,14 @@ extensión para Google Chrome. Para cargarla en modo de desarrollo:
 3. Pulsar **Cargar descomprimida** y seleccionar la carpeta `chrome_extension`.
 4. Hacer clic en el icono *Detecta Selectores* e introducir la URL y el tipo de
    proyecto.
-5. Presionar **Crear proyecto** y elegir la carpeta de destino cuando se le
+5. (Opcional) Seleccionar un archivo `.feature` con la estructura Gherkin que
+   servirá de base para generar el código.
+6. Presionar **Crear proyecto** y elegir la carpeta de destino cuando se le
    solicite.
 
 Se generará la estructura del proyecto en la carpeta seleccionada y se mostrará
 un mensaje con el nombre de dicha carpeta.
+Cuando se proporciona un archivo `.feature` y se elige el tipo de proyecto
+**Java con TestNG, Maven y Cucumber**, también se generan definiciones de pasos
+de ejemplo basadas en dicho archivo.
 
